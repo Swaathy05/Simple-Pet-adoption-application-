@@ -1,0 +1,35 @@
+name: flutter_learn
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  geolocator: ^7.0.3
+  image_picker: ^0.8.3+2
+  provider: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+      - assets/images/dog1.jpg
+      - assets/images/dog2.jpg
+      - assets/images/dog3.jpg
+      - assets/images/dog4.jpg
+      - assets/images/dog5.jpg
+      - assets/images/dog6.jpg
+      - assets/images/dog7.jpg
+      - assets/images/cat1.jpg
+      - assets/images/cat2.jpg
+      - assets/images/cat3.jpg
